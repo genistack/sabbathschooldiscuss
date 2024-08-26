@@ -2218,6 +2218,18 @@ a:hover.back-to-top {
 
 /* end of min-width width 1200px */
 
+@media (max-width: 600px){
+	/* Styles for small tablets and mobile screens */
+	.logo-text{
+		color: white !important;
+		font-size:large !important;
+	}
+}
+
+@media (max-width: 768px) {
+	/* Styles for tablets and larger mobile screens */
+  }
+
 /* Custom content style*/
 .hard-link {
 	color: #8526FA !important;
@@ -2282,4 +2294,8 @@ a.disabled {
 	font-weight: 700;
 	font-size: 18px;
 	border-bottom: 2px solid black;
+}
+
+.privacy.text-container{
+	color: white !important;
 }
